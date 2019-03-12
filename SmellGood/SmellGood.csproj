@@ -109,10 +109,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\script\balloonGenerator.cs" />
+    <Compile Include="Assets\script\balloonSelf.cs" />
     <Compile Include="Assets\script\cameraScript.cs" />
+    <Compile Include="Assets\script\goalScript.cs" />
     <Compile Include="Assets\script\mainScript.cs" />
     <Compile Include="Assets\script\raiseFloor.cs" />
     <Compile Include="Assets\script\smellScript.cs" />
+    <Compile Include="Assets\script\starScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

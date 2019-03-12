@@ -20,7 +20,7 @@ public class mainScript : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update () {
+    void FixedUpdate () {
         if(Input.GetKey("left shift") || Input.GetKey("right shift")) { 
             // shouldn't move character
         }

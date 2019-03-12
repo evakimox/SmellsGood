@@ -30,15 +30,6 @@ public class cameraScript : MonoBehaviour {
         {
             cameraMovingListener();
         }
-        /*
-        if(Input.GetKeyUp("left shift") || Input.GetKeyUp("right shift"))
-        {
-            Vector3 backTo = transform.position;
-            backTo.x = initPosition.x;
-            backTo.y = initPosition.y;
-            transform.position = backTo;
-        }
-        */
         if(transform.position.x <= -3f)
         {
             jitui.gameObject.GetComponent<smellScript>().seen = true;

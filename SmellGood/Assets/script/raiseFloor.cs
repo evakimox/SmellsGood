@@ -17,6 +17,9 @@ public class raiseFloor : MonoBehaviour {
 		
 	}
 
+    public void setSpeed(float v) {
+        speed = v;
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
